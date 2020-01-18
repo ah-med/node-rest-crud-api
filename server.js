@@ -20,7 +20,7 @@ app.get('/users', function (req, res) {
     var dbConn = mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: '*me32mysql#',
+        password: 'dbpassword',
         database: 'test'
     });
 
